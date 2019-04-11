@@ -20,10 +20,9 @@ public class Steps extends AbstractSteps {
         }
     }
 
-    @Given("^I have deposited \\$(\\d+)\\.(\\d+) in my account$")
-    public void i_have_deposited_$_in_my_account(int dollars, int cents) throws Throwable{
+    @Given("^I have deposited \\$(\\d+\\.\\d+) in my account$")
+    public void i_have_deposited_$_in_my_account(Money amount) throws Throwable{
         Account myAccount = new Account();
-        Money amount = new Money(dollars, cents);
         myAccount.deposit(amount);
 
         Assert.assertEquals("incorrect account balance -",
