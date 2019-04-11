@@ -1,4 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: nicebank.RunTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.629 sec
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.679 sec <<< FAILURE!
+Then $20 should be dispensed(Scenario: successful withdrawal from an account in credit)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: Incorrect amount dispensed -  expected:<20> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at nicebank.Steps.$_should_be_dispensed(Steps.java:80)
+	at ✽.Then $20 should be dispensed(cash_withdrawal.feature:5)
+
+Scenario: successful withdrawal from an account in credit  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: Incorrect amount dispensed -  expected:<20> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at nicebank.Steps.$_should_be_dispensed(Steps.java:80)
+	at ✽.Then $20 should be dispensed(cash_withdrawal.feature:5)
+

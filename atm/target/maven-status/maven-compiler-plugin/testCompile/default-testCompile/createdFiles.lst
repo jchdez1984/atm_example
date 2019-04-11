@@ -1,7 +1,10 @@
 common/AbstractSteps.class
+nicebank/Steps$KnowsTheDomain.class
 nicebank/RunTest.class
+nicebank/Steps$Teller.class
 common/HelloWorld.class
 nicebank/Steps$Account.class
 nicebank/Money.class
+nicebank/Steps$CashSlot.class
 transforms/MoneyConverter.class
 nicebank/Steps.class
