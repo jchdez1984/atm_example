@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="nicebank.RunTest" time="0.002" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="nicebank.RunTest" time="0.014" errors="0" skipped="3">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.202-b03"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/juanhernandez/atm"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/juanhernandez/atm_example/atm"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/juanhernandez/atm"/>
+    <property name="user.dir" value="/Users/juanhernandez/atm_example/atm"/>
     <property name="java.runtime.version" value="1.8.0_202-ea-b03"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -64,8 +64,15 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="Scenario: successful withdrawal from an account in credit" name="Given I have deposited $100 in my account" time="0.001"/>
-  <testcase classname="Scenario: successful withdrawal from an account in credit" name="When I request $20" time="0"/>
-  <testcase classname="Scenario: successful withdrawal from an account in credit" name="Then $20 should be dispensed" time="0"/>
-  <testcase classname="Scenario: successful withdrawal from an account in credit" name="Scenario: successful withdrawal from an account in credit" time="0.001"/>
+  <testcase classname="Scenario: successful withdrawal from an account in credit" name="Given I have deposited $100.00 in my account" time="0.002"/>
+  <testcase classname="Scenario: successful withdrawal from an account in credit" name="When I request $20" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: successful withdrawal from an account in credit" name="Then $20 should be dispensed" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: successful withdrawal from an account in credit" name="Scenario: successful withdrawal from an account in credit" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: successful withdrawal from an account in credit" name="Scenario: successful withdrawal from an account in credit" time="0.003"/>
 </testsuite>

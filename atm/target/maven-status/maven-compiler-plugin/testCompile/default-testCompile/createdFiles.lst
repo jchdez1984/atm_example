@@ -1,4 +1,6 @@
-common/HelloWorld.class
 common/AbstractSteps.class
 nicebank/RunTest.class
+common/HelloWorld.class
+nicebank/Steps$Account.class
+nicebank/Money.class
 nicebank/Steps.class
