@@ -22,7 +22,7 @@ public class Steps extends AbstractSteps {
         }
     }
 
-    @Given("^I have deposited \\$(\\d+\\.\\d+) in my account$")
+    @Given("^I have deposited (\\$\\d+\\.\\d+) in my account$")
     public void i_have_deposited_$_in_my_account(@Transform(MoneyConverter.class) Money amount) throws Throwable{
         Account myAccount = new Account();
         myAccount.deposit(amount);
