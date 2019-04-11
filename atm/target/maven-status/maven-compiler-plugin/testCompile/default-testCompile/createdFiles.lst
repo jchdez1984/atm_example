@@ -3,4 +3,5 @@ nicebank/RunTest.class
 common/HelloWorld.class
 nicebank/Steps$Account.class
 nicebank/Money.class
+transforms/MoneyConverter.class
 nicebank/Steps.class
